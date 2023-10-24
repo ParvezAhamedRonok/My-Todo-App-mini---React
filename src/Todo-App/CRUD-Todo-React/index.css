@@ -1,0 +1,72 @@
+.Todo-main{
+ width: 350px;
+ height: 450px;
+ border-radius: 12px;
+ background-color: darkolivegreen;
+box-sizing: border-box;
+overflow: auto;
+ padding: 10px;
+}
+.Todo-main  h2{
+     text-align: center;
+     color: white;
+     margin-bottom: 28px;
+     text-decoration: underline;
+}
+
+
+.formData{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-input{
+    padding: 10px;
+     border-radius: 10px;
+     background-color: black;
+     border: 1px solid gray;
+     color: white;
+}
+.formBtn{
+    padding: 7px;
+    border-radius: 6px;
+    margin-left: 4px;
+    width: 90px;
+}
+
+.todoMain{
+    margin-top: 13px;
+    width: 100%;
+}
+.todoMain .todo-list{
+    list-style: none;
+    width: 99%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 3px;
+    border: 2px solid gray;
+    margin-bottom: 6px;
+    border-radius: 5px;
+  
+}
+.todoMain .todoBtns{
+    padding: 10px;
+}
+.todoMain .todoBtns button{
+    border-radius: 5px;
+    height: 30px;
+    background-color: chartreuse;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.todoMain .list{
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}

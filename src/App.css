@@ -1,0 +1,9 @@
+body{
+    width: 95%;
+    height: 95vh;
+    background-color: aquamarine;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
